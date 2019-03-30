@@ -3,7 +3,7 @@
     "description": "Contact us page",
     "type": "library",
     "require": {
-        "illuminate/support": "^5.8",
+        "illuminate/support": "^5.7",
         "php": "^7.3"
     },
     "require-dev": {
