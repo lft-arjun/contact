@@ -3,7 +3,7 @@
     "description": "Contact us page",
     "type": "library",
     "require": {
-        "illuminate/support": "^5.9@dev",
+        "illuminate/support": "^5.8",
         "php": "^7.3"
     },
     "require-dev": {
@@ -12,6 +12,14 @@
     "autoload": {
         "psr-4": {
             "Dhanphe\\Contact\\": "src"
+        }
+    },
+    "extra": {
+
+        "laravel": {
+            "providers": [
+                "Dhanphe\\Contact\\ContactServiceProvider"
+            ]
         }
     },
     "license": "MIT",
